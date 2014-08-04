@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Country" representedClassName="Country" syncable="YES">
+        <attribute name="imageBigURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isEU" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isShengen" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="maxTurVisaDays" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxTurVisaDaysPeriod" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleRUS" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="visaPrice" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="entryTrips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="entryCountry" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="issuedVisas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Visa" inverseName="forCountry" inverseEntity="Visa" syncable="YES"/>
+        <relationship name="outedTrips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="outCountry" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="rulesByVehicle" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CountryWithVehicleRule" inverseName="inCountry" inverseEntity="CountryWithVehicleRule" syncable="YES"/>
+    </entity>
+    <entity name="CountryWithVehicleRule" representedClassName="CountryWithVehicleRule" syncable="YES">
+        <attribute name="maxNoVisaDays" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxNoVisaDaysPeriod" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="byVehicle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vehicle" inverseName="rulesByCountry" inverseEntity="Vehicle" syncable="YES"/>
+        <relationship name="inCountry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="rulesByVehicle" inverseEntity="Country" syncable="YES"/>
+    </entity>
+    <entity name="Day" representedClassName="Day" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="from2001" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="last180TripDays" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="weekDay" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="inWeek" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Week" inverseName="days" inverseEntity="Week" syncable="YES"/>
+        <relationship name="passportsByDay" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DayWithPassport" inverseName="usedDay" inverseEntity="DayWithPassport" syncable="YES"/>
+        <relationship name="tripsByDay" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DayWithTrip" inverseName="usedDay" inverseEntity="DayWithTrip" syncable="YES"/>
+        <relationship name="visasByDay" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DayWithVisa" inverseName="usedDay" inverseEntity="DayWithVisa" syncable="YES"/>
+    </entity>
+    <entity name="DayWithPassport" representedClassName="DayWithPassport" syncable="YES">
+        <attribute name="isExperation" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isIssue" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="inPassport" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Passport" inverseName="daysByPassport" inverseEntity="Passport" syncable="YES"/>
+        <relationship name="usedDay" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="passportsByDay" inverseEntity="Day" syncable="YES"/>
+    </entity>
+    <entity name="DayWithTrip" representedClassName="DayWithTrip" syncable="YES">
+        <attribute name="isEntry" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isOut" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="inTrip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trip" inverseName="daysByTrip" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="usedDay" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="tripsByDay" inverseEntity="Day" syncable="YES"/>
+    </entity>
+    <entity name="DayWithVisa" representedClassName="DayWithVisa" syncable="YES">
+        <attribute name="isEnd" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isStart" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="inVisa" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Visa" inverseName="daysByVisa" inverseEntity="Visa" syncable="YES"/>
+        <relationship name="usedDay" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="visasByDay" inverseEntity="Day" syncable="YES"/>
+    </entity>
+    <entity name="Passport" representedClassName="Passport" syncable="YES">
+        <attribute name="experationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isFingerprinting" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="issueDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="daysByPassport" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DayWithPassport" inverseName="inPassport" inverseEntity="DayWithPassport" syncable="YES"/>
+        <relationship name="visas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Visa" inverseName="inPassport" inverseEntity="Visa" syncable="YES"/>
+        <relationship name="whoOwn" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="passports" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Trip" representedClassName="Trip" syncable="YES">
+        <attribute name="entryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="numberOfTravelers" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="outDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="daysByTrip" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DayWithTrip" inverseName="inTrip" inverseEntity="DayWithTrip" syncable="YES"/>
+        <relationship name="entryCountry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="entryTrips" inverseEntity="Country" syncable="YES"/>
+        <relationship name="entryVehicle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vehicle" inverseName="entryTrips" inverseEntity="Vehicle" syncable="YES"/>
+        <relationship name="outCountry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="outedTrips" inverseEntity="Country" syncable="YES"/>
+        <relationship name="outVehicle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vehicle" inverseName="outedTrips" inverseEntity="Vehicle" syncable="YES"/>
+        <relationship name="usersByTrip" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="UserWithTrip" inverseName="inTrip" inverseEntity="UserWithTrip" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isMale" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="passports" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Passport" inverseName="whoOwn" inverseEntity="Passport" syncable="YES"/>
+        <relationship name="tripsByUser" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserWithTrip" inverseName="whoTravel" inverseEntity="UserWithTrip" syncable="YES"/>
+    </entity>
+    <entity name="UserWithTrip" representedClassName="UserWithTrip" syncable="YES">
+        <relationship name="inTrip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trip" inverseName="usersByTrip" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="whoTravel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="tripsByUser" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Vehicle" representedClassName="Vehicle" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entryTrips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="entryVehicle" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="outedTrips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="outVehicle" inverseEntity="Trip" syncable="YES"/>
+        <relationship name="rulesByCountry" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CountryWithVehicleRule" inverseName="byVehicle" inverseEntity="CountryWithVehicleRule" syncable="YES"/>
+    </entity>
+    <entity name="Visa" representedClassName="Visa" syncable="YES">
+        <attribute name="currentNumberEntries" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="days" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="multiEntryType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="typeABC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="daysByVisa" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DayWithVisa" inverseName="inVisa" inverseEntity="DayWithVisa" syncable="YES"/>
+        <relationship name="forCountry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="issuedVisas" inverseEntity="Country" syncable="YES"/>
+        <relationship name="inPassport" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Passport" inverseName="visas" inverseEntity="Passport" syncable="YES"/>
+    </entity>
+    <entity name="Week" representedClassName="Week" syncable="YES">
+        <attribute name="from2001" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="mainMonth" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberFromMonthBeginner" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="days" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Day" inverseName="inWeek" inverseEntity="Day" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Country" positionX="531" positionY="180" width="128" height="268"/>
+        <element name="CountryWithVehicleRule" positionX="720" positionY="468" width="128" height="103"/>
+        <element name="Day" positionX="-540" positionY="-121" width="128" height="208"/>
+        <element name="DayWithPassport" positionX="-270" positionY="104" width="128" height="103"/>
+        <element name="DayWithTrip" positionX="-56" positionY="-166" width="128" height="103"/>
+        <element name="DayWithVisa" positionX="-65" positionY="-31" width="128" height="103"/>
+        <element name="Passport" positionX="-72" positionY="168" width="128" height="163"/>
+        <element name="Trip" positionX="196" positionY="477" width="128" height="208"/>
+        <element name="User" positionX="-279" positionY="297" width="128" height="118"/>
+        <element name="UserWithTrip" positionX="-36" positionY="441" width="128" height="73"/>
+        <element name="Vehicle" positionX="475" positionY="662" width="128" height="118"/>
+        <element name="Visa" positionX="322" positionY="122" width="128" height="193"/>
+        <element name="Week" positionX="-333" positionY="-207" width="128" height="103"/>
+    </elements>
+</model>

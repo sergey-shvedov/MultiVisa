@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8412DF8B193DBC1300978464 /* TestCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412DF8A193DBC1300978464 /* TestCDTVC.m */; };
+		8412DF8E193E808300978464 /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412DF8D193E808300978464 /* Day.m */; };
+		8412DF91193E80A600978464 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412DF90193E80A600978464 /* Trip.m */; };
+		8412DF94193E80A600978464 /* UserWithTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412DF93193E80A600978464 /* UserWithTrip.m */; };
+		841442DE191A125000A90BAF /* VisaFormPassportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841442DD191A125000A90BAF /* VisaFormPassportVC.m */; };
+		841442E7191AE32100A90BAF /* TripAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841442E6191AE32100A90BAF /* TripAddVC.m */; };
+		841442ED191AE55C00A90BAF /* TripTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 841442EC191AE55C00A90BAF /* TripTemp.m */; };
+		841442F0191AEECF00A90BAF /* User+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 841442EF191AEECF00A90BAF /* User+Create.m */; };
+		841442F3191B6B6F00A90BAF /* TripFormTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841442F2191B6B6F00A90BAF /* TripFormTVC.m */; };
+		841442FD191B9A1100A90BAF /* TripFormEntryCountyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841442FC191B9A1100A90BAF /* TripFormEntryCountyVC.m */; };
+		84144300191B9A3700A90BAF /* TripFormEntryDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841442FF191B9A3700A90BAF /* TripFormEntryDateVC.m */; };
+		84144303191B9A5900A90BAF /* TripFormOutCountyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84144302191B9A5900A90BAF /* TripFormOutCountyVC.m */; };
+		84144306191B9A8200A90BAF /* TripFormOutDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84144305191B9A8200A90BAF /* TripFormOutDateVC.m */; };
+		84144309191B9ACB00A90BAF /* TripFormTitleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84144308191B9ACB00A90BAF /* TripFormTitleVC.m */; };
+		8427453519156CCC00005E86 /* VisaFormStartDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8427453419156CCC00005E86 /* VisaFormStartDateVC.m */; };
+		842745391915825F00005E86 /* VisaFormEndDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842745381915825F00005E86 /* VisaFormEndDateVC.m */; };
+		84509AF119687FD1003B6676 /* NSDateFormatter+Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 84509AF019687FD1003B6676 /* NSDateFormatter+Project.m */; };
+		8453D40C191C31C400E563EB /* PassportAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453D40B191C31C400E563EB /* PassportAddVC.m */; };
+		8453D40F191C339400E563EB /* PassportFormTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453D40E191C339400E563EB /* PassportFormTVC.m */; };
+		8453D412191CCF3100E563EB /* PassportTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453D411191CCF3100E563EB /* PassportTemp.m */; };
+		845FB7AF190D1ECD00AE4862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FB7AE190D1ECD00AE4862 /* Foundation.framework */; };
+		845FB7B1190D1ECD00AE4862 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FB7B0190D1ECD00AE4862 /* CoreGraphics.framework */; };
+		845FB7B3190D1ECD00AE4862 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FB7B2190D1ECD00AE4862 /* UIKit.framework */; };
+		845FB7BB190D1ECD00AE4862 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB7BA190D1ECD00AE4862 /* main.m */; };
+		845FB7BF190D1ECD00AE4862 /* MultiTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB7BE190D1ECD00AE4862 /* MultiTestAppDelegate.m */; };
+		845FB7C5190D1ECD00AE4862 /* MultiTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB7C4190D1ECD00AE4862 /* MultiTestViewController.m */; };
+		845FB7C7190D1ECD00AE4862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845FB7C6190D1ECD00AE4862 /* Images.xcassets */; };
+		845FB7CE190D1ECD00AE4862 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FB7CD190D1ECD00AE4862 /* XCTest.framework */; };
+		845FB7CF190D1ECD00AE4862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FB7AE190D1ECD00AE4862 /* Foundation.framework */; };
+		845FB7D0190D1ECD00AE4862 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845FB7B2190D1ECD00AE4862 /* UIKit.framework */; };
+		845FB7DA190D1ECD00AE4862 /* MultiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB7D9190D1ECD00AE4862 /* MultiTestTests.m */; };
+		845FB7E5190D21B200AE4862 /* MultiModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845FB7E3190D21B200AE4862 /* MultiModel.xcdatamodeld */; };
+		845FB805190D3DBA00AE4862 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB804190D3DBA00AE4862 /* User.m */; };
+		845FB808190D3DBA00AE4862 /* CountryWithVehicleRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB807190D3DBA00AE4862 /* CountryWithVehicleRule.m */; };
+		845FB81E190D58D800AE4862 /* CalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB81D190D58D800AE4862 /* CalendarTableViewController.m */; };
+		845FB821190D5A8900AE4862 /* CalendarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB820190D5A8900AE4862 /* CalendarTableViewCell.m */; };
+		845FB824190E55E500AE4862 /* Vehicle+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB823190E55E500AE4862 /* Vehicle+Create.m */; };
+		845FB827190E660400AE4862 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB826190E660400AE4862 /* Country.m */; };
+		845FB82A190E660400AE4862 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 845FB829190E660400AE4862 /* Vehicle.m */; };
+		846E64F71971D75C00A54907 /* AppIcon29x29@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E64F11971D75C00A54907 /* AppIcon29x29@2x~ipad.png */; };
+		846E64F81971D75C00A54907 /* AppIcon29x29~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E64F21971D75C00A54907 /* AppIcon29x29~ipad.png */; };
+		846E64F91971D75C00A54907 /* AppIcon40x40@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E64F31971D75C00A54907 /* AppIcon40x40@2x~ipad.png */; };
+		846E64FA1971D75C00A54907 /* AppIcon40x40~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E64F41971D75C00A54907 /* AppIcon40x40~ipad.png */; };
+		846E64FB1971D75C00A54907 /* AppIcon76x76@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E64F51971D75C00A54907 /* AppIcon76x76@2x~ipad.png */; };
+		846E64FC1971D75C00A54907 /* AppIcon76x76~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 846E64F61971D75C00A54907 /* AppIcon76x76~ipad.png */; };
+		8475C604191D0BF300A53B15 /* PassportFormIssueDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C603191D0BF300A53B15 /* PassportFormIssueDateVC.m */; };
+		8475C607191D0C1900A53B15 /* PassportFormExperationDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C606191D0C1900A53B15 /* PassportFormExperationDateVC.m */; };
+		8475C60A191D0C6500A53B15 /* PassportFormTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C609191D0C6500A53B15 /* PassportFormTypeVC.m */; };
+		8475C629191D585100A53B15 /* DayWithPassport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C628191D585100A53B15 /* DayWithPassport.m */; };
+		8475C62F191D585200A53B15 /* Visa.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C62E191D585200A53B15 /* Visa.m */; };
+		8475C635191D585200A53B15 /* Week.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C634191D585200A53B15 /* Week.m */; };
+		8475C638191D585200A53B15 /* DayWithTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C637191D585200A53B15 /* DayWithTrip.m */; };
+		8475C63E191D585200A53B15 /* DayWithVisa.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C63D191D585200A53B15 /* DayWithVisa.m */; };
+		8475C642191D58F900A53B15 /* Passport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C641191D58F900A53B15 /* Passport.m */; };
+		8475C645191D608600A53B15 /* Day+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C644191D608600A53B15 /* Day+Create.m */; };
+		8475C648191D762700A53B15 /* Week+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C647191D762700A53B15 /* Week+Create.m */; };
+		8475C64B191DA32300A53B15 /* MultiTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C64A191DA32300A53B15 /* MultiTestCell.m */; };
+		8475C64E191EAD4200A53B15 /* DayWithPassport+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C64D191EAD4200A53B15 /* DayWithPassport+Create.m */; };
+		8475C6511920E58600A53B15 /* DayWithVisa+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C6501920E58600A53B15 /* DayWithVisa+Create.m */; };
+		8475C6541920E88B00A53B15 /* DayWithTrip+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C6531920E88B00A53B15 /* DayWithTrip+Create.m */; };
+		8475C6571920F22700A53B15 /* CalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C6561920F22700A53B15 /* CalendarVC.m */; };
+		8475C65A192121C500A53B15 /* TodayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C659192121C500A53B15 /* TodayVC.m */; };
+		8475C65D19214A6200A53B15 /* DayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475C65C19214A6200A53B15 /* DayVC.m */; };
+		8476F7EF195C2D4400A50B07 /* DraggableTodayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476F7EE195C2D4400A50B07 /* DraggableTodayView.m */; };
+		8476F7F2195C37EF00A50B07 /* DraggableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476F7F1195C37EF00A50B07 /* DraggableButton.m */; };
+		848678801918DEA900B387EA /* NSString+Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 8486787F1918DEA900B387EA /* NSString+Project.m */; };
+		848678831918EF2900B387EA /* VisaFormDaysVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 848678821918EF2900B387EA /* VisaFormDaysVC.m */; };
+		848678861919172300B387EA /* NSDate+Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 848678851919172300B387EA /* NSDate+Project.m */; };
+		84BA7223195833D5006211F6 /* icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BA7222195833D5006211F6 /* icons.xcassets */; };
+		84BA7229195996AA006211F6 /* UILoaderSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA7228195996AA006211F6 /* UILoaderSegue.m */; };
+		84C313C1190E998700BB982B /* Country+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C313C0190E998700BB982B /* Country+Create.m */; };
+		84C313C4190EC8A800BB982B /* CountryWithVehicleRule+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C313C3190EC8A800BB982B /* CountryWithVehicleRule+Create.m */; };
+		84C313CA190F971200BB982B /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C313C9190F971200BB982B /* CoreDataTableViewController.m */; };
+		84C31418190FAB5700BB982B /* PassportsCDTVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C31417190FAB5700BB982B /* PassportsCDTVCViewController.m */; };
+		84C3141B190FC03300BB982B /* PassportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3141A190FC03300BB982B /* PassportViewController.m */; };
+		84C3141E190FF34500BB982B /* VisaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3141D190FF34500BB982B /* VisaViewController.m */; };
+		84C31421190FF36300BB982B /* TripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C31420190FF36300BB982B /* TripViewController.m */; };
+		84C31424190FF37500BB982B /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C31423190FF37500BB982B /* AlertViewController.m */; };
+		84C31427190FF47100BB982B /* VisasCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C31426190FF47100BB982B /* VisasCDTVC.m */; };
+		84C3142A190FF49700BB982B /* TripsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C31429190FF49700BB982B /* TripsCDTVC.m */; };
+		84C3142D190FF4AF00BB982B /* AlertsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3142C190FF4AF00BB982B /* AlertsCDTVC.m */; };
+		84C314331910F2F400BB982B /* VisaAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C314321910F2F400BB982B /* VisaAddVC.m */; };
+		84C3143919110E8200BB982B /* VisaFormTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3143819110E8200BB982B /* VisaFormTVC.m */; };
+		84C3143C19111DE100BB982B /* UIColor+Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3143B19111DE100BB982B /* UIColor+Project.m */; };
+		84C3143F1911224900BB982B /* VisaFormCountryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3143E1911224900BB982B /* VisaFormCountryVC.m */; };
+		84C314431911793700BB982B /* AddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C314421911793700BB982B /* AddVC.m */; };
+		84C314491911984C00BB982B /* VisaTemp.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C314481911984C00BB982B /* VisaTemp.m */; };
+		84C3144C19119EBC00BB982B /* Passport+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3144B19119EBC00BB982B /* Passport+Create.m */; };
+		84C314501912C35000BB982B /* FormButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3144F1912C35000BB982B /* FormButton.m */; };
+		84E0E91E1941DFE4007DC57D /* MultiVisaUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0E91D1941DFE4007DC57D /* MultiVisaUITabBarController.m */; };
+		84F1F05119719D2400C6D8AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F1F04E1971975D00C6D8AB /* Main.storyboard */; };
+		84F1F0541971A20300C6D8AB /* MultiVisaCopy in Resources */ = {isa = PBXBuildFile; fileRef = 84F1F0531971A20300C6D8AB /* MultiVisaCopy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845FB7D1190D1ECD00AE4862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845FB7A3190D1ECD00AE4862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845FB7AA190D1ECD00AE4862;
+			remoteInfo = MultiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8412DF89193DBC1300978464 /* TestCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCDTVC.h; sourceTree = "<group>"; };
+		8412DF8A193DBC1300978464 /* TestCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCDTVC.m; sourceTree = "<group>"; };
+		8412DF8C193E808300978464 /* Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		8412DF8D193E808300978464 /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
+		8412DF8F193E80A600978464 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		8412DF90193E80A600978464 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		8412DF92193E80A600978464 /* UserWithTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserWithTrip.h; sourceTree = "<group>"; };
+		8412DF93193E80A600978464 /* UserWithTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserWithTrip.m; sourceTree = "<group>"; };
+		841442DC191A125000A90BAF /* VisaFormPassportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaFormPassportVC.h; sourceTree = "<group>"; };
+		841442DD191A125000A90BAF /* VisaFormPassportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaFormPassportVC.m; sourceTree = "<group>"; };
+		841442DF191AB89000A90BAF /* AddButtonsActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddButtonsActions.h; sourceTree = "<group>"; };
+		841442E5191AE32100A90BAF /* TripAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripAddVC.h; sourceTree = "<group>"; };
+		841442E6191AE32100A90BAF /* TripAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripAddVC.m; sourceTree = "<group>"; };
+		841442EB191AE55C00A90BAF /* TripTemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripTemp.h; sourceTree = "<group>"; };
+		841442EC191AE55C00A90BAF /* TripTemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripTemp.m; sourceTree = "<group>"; };
+		841442EE191AEECF00A90BAF /* User+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+Create.h"; sourceTree = "<group>"; };
+		841442EF191AEECF00A90BAF /* User+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+Create.m"; sourceTree = "<group>"; };
+		841442F1191B6B6F00A90BAF /* TripFormTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFormTVC.h; sourceTree = "<group>"; };
+		841442F2191B6B6F00A90BAF /* TripFormTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFormTVC.m; sourceTree = "<group>"; };
+		841442FB191B9A1100A90BAF /* TripFormEntryCountyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFormEntryCountyVC.h; sourceTree = "<group>"; };
+		841442FC191B9A1100A90BAF /* TripFormEntryCountyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFormEntryCountyVC.m; sourceTree = "<group>"; };
+		841442FE191B9A3700A90BAF /* TripFormEntryDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFormEntryDateVC.h; sourceTree = "<group>"; };
+		841442FF191B9A3700A90BAF /* TripFormEntryDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFormEntryDateVC.m; sourceTree = "<group>"; };
+		84144301191B9A5900A90BAF /* TripFormOutCountyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFormOutCountyVC.h; sourceTree = "<group>"; };
+		84144302191B9A5900A90BAF /* TripFormOutCountyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFormOutCountyVC.m; sourceTree = "<group>"; };
+		84144304191B9A8200A90BAF /* TripFormOutDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFormOutDateVC.h; sourceTree = "<group>"; };
+		84144305191B9A8200A90BAF /* TripFormOutDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFormOutDateVC.m; sourceTree = "<group>"; };
+		84144307191B9ACB00A90BAF /* TripFormTitleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFormTitleVC.h; sourceTree = "<group>"; };
+		84144308191B9ACB00A90BAF /* TripFormTitleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFormTitleVC.m; sourceTree = "<group>"; };
+		8427453319156CCC00005E86 /* VisaFormStartDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaFormStartDateVC.h; sourceTree = "<group>"; };
+		8427453419156CCC00005E86 /* VisaFormStartDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaFormStartDateVC.m; sourceTree = "<group>"; };
+		842745371915825F00005E86 /* VisaFormEndDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaFormEndDateVC.h; sourceTree = "<group>"; };
+		842745381915825F00005E86 /* VisaFormEndDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaFormEndDateVC.m; sourceTree = "<group>"; };
+		84509AEF19687FD1003B6676 /* NSDateFormatter+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Project.h"; sourceTree = "<group>"; };
+		84509AF019687FD1003B6676 /* NSDateFormatter+Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Project.m"; sourceTree = "<group>"; };
+		84509AF719716CDE003B6676 /* MultiTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultiTest-Info.plist"; sourceTree = "<group>"; };
+		8453D40A191C31C400E563EB /* PassportAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportAddVC.h; sourceTree = "<group>"; };
+		8453D40B191C31C400E563EB /* PassportAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportAddVC.m; sourceTree = "<group>"; };
+		8453D40D191C339400E563EB /* PassportFormTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportFormTVC.h; sourceTree = "<group>"; };
+		8453D40E191C339400E563EB /* PassportFormTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportFormTVC.m; sourceTree = "<group>"; };
+		8453D410191CCF3100E563EB /* PassportTemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportTemp.h; sourceTree = "<group>"; };
+		8453D411191CCF3100E563EB /* PassportTemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportTemp.m; sourceTree = "<group>"; };
+		845FB7AB190D1ECD00AE4862 /* MultiVisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiVisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845FB7AE190D1ECD00AE4862 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		845FB7B0190D1ECD00AE4862 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		845FB7B2190D1ECD00AE4862 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		845FB7BA190D1ECD00AE4862 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845FB7BC190D1ECD00AE4862 /* MultiTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiTest-Prefix.pch"; sourceTree = "<group>"; };
+		845FB7BD190D1ECD00AE4862 /* MultiTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTestAppDelegate.h; sourceTree = "<group>"; };
+		845FB7BE190D1ECD00AE4862 /* MultiTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTestAppDelegate.m; sourceTree = "<group>"; };
+		845FB7C3190D1ECD00AE4862 /* MultiTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTestViewController.h; sourceTree = "<group>"; };
+		845FB7C4190D1ECD00AE4862 /* MultiTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTestViewController.m; sourceTree = "<group>"; };
+		845FB7C6190D1ECD00AE4862 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		845FB7CC190D1ECD00AE4862 /* MultiVisaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiVisaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845FB7CD190D1ECD00AE4862 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		845FB7D5190D1ECD00AE4862 /* MultiTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiTestTests-Info.plist"; sourceTree = "<group>"; };
+		845FB7D9190D1ECD00AE4862 /* MultiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTestTests.m; sourceTree = "<group>"; };
+		845FB7E4190D21B200AE4862 /* MultiModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiModel.xcdatamodel; sourceTree = "<group>"; };
+		845FB803190D3DBA00AE4862 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		845FB804190D3DBA00AE4862 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		845FB806190D3DBA00AE4862 /* CountryWithVehicleRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryWithVehicleRule.h; sourceTree = "<group>"; };
+		845FB807190D3DBA00AE4862 /* CountryWithVehicleRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryWithVehicleRule.m; sourceTree = "<group>"; };
+		845FB81C190D58D800AE4862 /* CalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarTableViewController.h; sourceTree = "<group>"; };
+		845FB81D190D58D800AE4862 /* CalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarTableViewController.m; sourceTree = "<group>"; };
+		845FB81F190D5A8900AE4862 /* CalendarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarTableViewCell.h; sourceTree = "<group>"; };
+		845FB820190D5A8900AE4862 /* CalendarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarTableViewCell.m; sourceTree = "<group>"; };
+		845FB822190E55E500AE4862 /* Vehicle+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Vehicle+Create.h"; sourceTree = "<group>"; };
+		845FB823190E55E500AE4862 /* Vehicle+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Vehicle+Create.m"; sourceTree = "<group>"; };
+		845FB825190E660400AE4862 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		845FB826190E660400AE4862 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		845FB828190E660400AE4862 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		845FB829190E660400AE4862 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		846E64F11971D75C00A54907 /* AppIcon29x29@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x~ipad.png"; sourceTree = "<group>"; };
+		846E64F21971D75C00A54907 /* AppIcon29x29~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29~ipad.png"; sourceTree = "<group>"; };
+		846E64F31971D75C00A54907 /* AppIcon40x40@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x~ipad.png"; sourceTree = "<group>"; };
+		846E64F41971D75C00A54907 /* AppIcon40x40~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40~ipad.png"; sourceTree = "<group>"; };
+		846E64F51971D75C00A54907 /* AppIcon76x76@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x~ipad.png"; sourceTree = "<group>"; };
+		846E64F61971D75C00A54907 /* AppIcon76x76~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76~ipad.png"; sourceTree = "<group>"; };
+		8475C602191D0BF300A53B15 /* PassportFormIssueDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportFormIssueDateVC.h; sourceTree = "<group>"; };
+		8475C603191D0BF300A53B15 /* PassportFormIssueDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportFormIssueDateVC.m; sourceTree = "<group>"; };
+		8475C605191D0C1900A53B15 /* PassportFormExperationDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportFormExperationDateVC.h; sourceTree = "<group>"; };
+		8475C606191D0C1900A53B15 /* PassportFormExperationDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportFormExperationDateVC.m; sourceTree = "<group>"; };
+		8475C608191D0C6500A53B15 /* PassportFormTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportFormTypeVC.h; sourceTree = "<group>"; };
+		8475C609191D0C6500A53B15 /* PassportFormTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportFormTypeVC.m; sourceTree = "<group>"; };
+		8475C627191D585100A53B15 /* DayWithPassport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayWithPassport.h; sourceTree = "<group>"; };
+		8475C628191D585100A53B15 /* DayWithPassport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayWithPassport.m; sourceTree = "<group>"; };
+		8475C62D191D585200A53B15 /* Visa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visa.h; sourceTree = "<group>"; };
+		8475C62E191D585200A53B15 /* Visa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visa.m; sourceTree = "<group>"; };
+		8475C633191D585200A53B15 /* Week.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Week.h; sourceTree = "<group>"; };
+		8475C634191D585200A53B15 /* Week.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Week.m; sourceTree = "<group>"; };
+		8475C636191D585200A53B15 /* DayWithTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayWithTrip.h; sourceTree = "<group>"; };
+		8475C637191D585200A53B15 /* DayWithTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayWithTrip.m; sourceTree = "<group>"; };
+		8475C63C191D585200A53B15 /* DayWithVisa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayWithVisa.h; sourceTree = "<group>"; };
+		8475C63D191D585200A53B15 /* DayWithVisa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayWithVisa.m; sourceTree = "<group>"; };
+		8475C640191D58F900A53B15 /* Passport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passport.h; sourceTree = "<group>"; };
+		8475C641191D58F900A53B15 /* Passport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passport.m; sourceTree = "<group>"; };
+		8475C643191D608600A53B15 /* Day+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Day+Create.h"; sourceTree = "<group>"; };
+		8475C644191D608600A53B15 /* Day+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Day+Create.m"; sourceTree = "<group>"; };
+		8475C646191D762700A53B15 /* Week+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Week+Create.h"; sourceTree = "<group>"; };
+		8475C647191D762700A53B15 /* Week+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Week+Create.m"; sourceTree = "<group>"; };
+		8475C649191DA32300A53B15 /* MultiTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTestCell.h; sourceTree = "<group>"; };
+		8475C64A191DA32300A53B15 /* MultiTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTestCell.m; sourceTree = "<group>"; };
+		8475C64C191EAD4200A53B15 /* DayWithPassport+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DayWithPassport+Create.h"; sourceTree = "<group>"; };
+		8475C64D191EAD4200A53B15 /* DayWithPassport+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DayWithPassport+Create.m"; sourceTree = "<group>"; };
+		8475C64F1920E58600A53B15 /* DayWithVisa+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DayWithVisa+Create.h"; sourceTree = "<group>"; };
+		8475C6501920E58600A53B15 /* DayWithVisa+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DayWithVisa+Create.m"; sourceTree = "<group>"; };
+		8475C6521920E88B00A53B15 /* DayWithTrip+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DayWithTrip+Create.h"; sourceTree = "<group>"; };
+		8475C6531920E88B00A53B15 /* DayWithTrip+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DayWithTrip+Create.m"; sourceTree = "<group>"; };
+		8475C6551920F22700A53B15 /* CalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarVC.h; sourceTree = "<group>"; };
+		8475C6561920F22700A53B15 /* CalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarVC.m; sourceTree = "<group>"; };
+		8475C658192121C500A53B15 /* TodayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayVC.h; sourceTree = "<group>"; };
+		8475C659192121C500A53B15 /* TodayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayVC.m; sourceTree = "<group>"; };
+		8475C65B19214A6200A53B15 /* DayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayVC.h; sourceTree = "<group>"; };
+		8475C65C19214A6200A53B15 /* DayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayVC.m; sourceTree = "<group>"; };
+		8476F7ED195C2D4400A50B07 /* DraggableTodayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableTodayView.h; sourceTree = "<group>"; };
+		8476F7EE195C2D4400A50B07 /* DraggableTodayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableTodayView.m; sourceTree = "<group>"; };
+		8476F7F0195C37EF00A50B07 /* DraggableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableButton.h; sourceTree = "<group>"; };
+		8476F7F1195C37EF00A50B07 /* DraggableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableButton.m; sourceTree = "<group>"; };
+		8486787E1918DEA900B387EA /* NSString+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Project.h"; sourceTree = "<group>"; };
+		8486787F1918DEA900B387EA /* NSString+Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Project.m"; sourceTree = "<group>"; };
+		848678811918EF2900B387EA /* VisaFormDaysVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaFormDaysVC.h; sourceTree = "<group>"; };
+		848678821918EF2900B387EA /* VisaFormDaysVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaFormDaysVC.m; sourceTree = "<group>"; };
+		848678841919172300B387EA /* NSDate+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Project.h"; sourceTree = "<group>"; };
+		848678851919172300B387EA /* NSDate+Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Project.m"; sourceTree = "<group>"; };
+		84BA722019522257006211F6 /* PassportSavedNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassportSavedNotification.h; sourceTree = "<group>"; };
+		84BA7222195833D5006211F6 /* icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icons.xcassets; sourceTree = "<group>"; };
+		84BA7227195996AA006211F6 /* UILoaderSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILoaderSegue.h; sourceTree = "<group>"; };
+		84BA7228195996AA006211F6 /* UILoaderSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILoaderSegue.m; sourceTree = "<group>"; };
+		84C313BF190E998700BB982B /* Country+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Country+Create.h"; sourceTree = "<group>"; };
+		84C313C0190E998700BB982B /* Country+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Country+Create.m"; sourceTree = "<group>"; };
+		84C313C2190EC8A800BB982B /* CountryWithVehicleRule+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CountryWithVehicleRule+Create.h"; sourceTree = "<group>"; };
+		84C313C3190EC8A800BB982B /* CountryWithVehicleRule+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CountryWithVehicleRule+Create.m"; sourceTree = "<group>"; };
+		84C313C8190F971200BB982B /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		84C313C9190F971200BB982B /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		84C31415190FA45200BB982B /* MultiDatabaseAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiDatabaseAvailability.h; sourceTree = "<group>"; };
+		84C31416190FAB5700BB982B /* PassportsCDTVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportsCDTVCViewController.h; sourceTree = "<group>"; };
+		84C31417190FAB5700BB982B /* PassportsCDTVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportsCDTVCViewController.m; sourceTree = "<group>"; };
+		84C31419190FC03300BB982B /* PassportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassportViewController.h; sourceTree = "<group>"; };
+		84C3141A190FC03300BB982B /* PassportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassportViewController.m; sourceTree = "<group>"; };
+		84C3141C190FF34500BB982B /* VisaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaViewController.h; sourceTree = "<group>"; };
+		84C3141D190FF34500BB982B /* VisaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaViewController.m; sourceTree = "<group>"; };
+		84C3141F190FF36300BB982B /* TripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripViewController.h; sourceTree = "<group>"; };
+		84C31420190FF36300BB982B /* TripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripViewController.m; sourceTree = "<group>"; };
+		84C31422190FF37500BB982B /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		84C31423190FF37500BB982B /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		84C31425190FF47100BB982B /* VisasCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisasCDTVC.h; sourceTree = "<group>"; };
+		84C31426190FF47100BB982B /* VisasCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisasCDTVC.m; sourceTree = "<group>"; };
+		84C31428190FF49700BB982B /* TripsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripsCDTVC.h; sourceTree = "<group>"; };
+		84C31429190FF49700BB982B /* TripsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripsCDTVC.m; sourceTree = "<group>"; };
+		84C3142B190FF4AF00BB982B /* AlertsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsCDTVC.h; sourceTree = "<group>"; };
+		84C3142C190FF4AF00BB982B /* AlertsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsCDTVC.m; sourceTree = "<group>"; };
+		84C314311910F2F400BB982B /* VisaAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaAddVC.h; sourceTree = "<group>"; };
+		84C314321910F2F400BB982B /* VisaAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaAddVC.m; sourceTree = "<group>"; };
+		84C3143719110E8200BB982B /* VisaFormTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaFormTVC.h; sourceTree = "<group>"; };
+		84C3143819110E8200BB982B /* VisaFormTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaFormTVC.m; sourceTree = "<group>"; };
+		84C3143A19111DE100BB982B /* UIColor+Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Project.h"; sourceTree = "<group>"; };
+		84C3143B19111DE100BB982B /* UIColor+Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Project.m"; sourceTree = "<group>"; };
+		84C3143D1911224900BB982B /* VisaFormCountryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaFormCountryVC.h; sourceTree = "<group>"; };
+		84C3143E1911224900BB982B /* VisaFormCountryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaFormCountryVC.m; sourceTree = "<group>"; };
+		84C31440191175CA00BB982B /* CONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONST.h; sourceTree = "<group>"; };
+		84C314411911793700BB982B /* AddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVC.h; sourceTree = "<group>"; };
+		84C314421911793700BB982B /* AddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVC.m; sourceTree = "<group>"; };
+		84C314471911984C00BB982B /* VisaTemp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaTemp.h; sourceTree = "<group>"; };
+		84C314481911984C00BB982B /* VisaTemp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaTemp.m; sourceTree = "<group>"; };
+		84C3144A19119EBC00BB982B /* Passport+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Passport+Create.h"; sourceTree = "<group>"; };
+		84C3144B19119EBC00BB982B /* Passport+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Passport+Create.m"; sourceTree = "<group>"; };
+		84C3144E1912C35000BB982B /* FormButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormButton.h; sourceTree = "<group>"; };
+		84C3144F1912C35000BB982B /* FormButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormButton.m; sourceTree = "<group>"; };
+		84E0E91C1941DFE4007DC57D /* MultiVisaUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiVisaUITabBarController.h; sourceTree = "<group>"; };
+		84E0E91D1941DFE4007DC57D /* MultiVisaUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiVisaUITabBarController.m; sourceTree = "<group>"; };
+		84F1F04F1971975D00C6D8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		84F1F0531971A20300C6D8AB /* MultiVisaCopy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MultiVisaCopy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845FB7A8190D1ECD00AE4862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845FB7B1190D1ECD00AE4862 /* CoreGraphics.framework in Frameworks */,
+				845FB7B3190D1ECD00AE4862 /* UIKit.framework in Frameworks */,
+				845FB7AF190D1ECD00AE4862 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845FB7C9190D1ECD00AE4862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845FB7CE190D1ECD00AE4862 /* XCTest.framework in Frameworks */,
+				845FB7D0190D1ECD00AE4862 /* UIKit.framework in Frameworks */,
+				845FB7CF190D1ECD00AE4862 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841442E4191AE2B600A90BAF /* TRIP */ = {
+			isa = PBXGroup;
+			children = (
+				841442F7191B71C100A90BAF /* TripForm */,
+				841442F1191B6B6F00A90BAF /* TripFormTVC.h */,
+				841442F2191B6B6F00A90BAF /* TripFormTVC.m */,
+				841442E5191AE32100A90BAF /* TripAddVC.h */,
+				841442E6191AE32100A90BAF /* TripAddVC.m */,
+				84C31428190FF49700BB982B /* TripsCDTVC.h */,
+				84C31429190FF49700BB982B /* TripsCDTVC.m */,
+				84C3141F190FF36300BB982B /* TripViewController.h */,
+				84C31420190FF36300BB982B /* TripViewController.m */,
+			);
+			name = TRIP;
+			sourceTree = "<group>";
+		};
+		841442F7191B71C100A90BAF /* TripForm */ = {
+			isa = PBXGroup;
+			children = (
+				841442FB191B9A1100A90BAF /* TripFormEntryCountyVC.h */,
+				841442FC191B9A1100A90BAF /* TripFormEntryCountyVC.m */,
+				841442FE191B9A3700A90BAF /* TripFormEntryDateVC.h */,
+				841442FF191B9A3700A90BAF /* TripFormEntryDateVC.m */,
+				84144301191B9A5900A90BAF /* TripFormOutCountyVC.h */,
+				84144302191B9A5900A90BAF /* TripFormOutCountyVC.m */,
+				84144304191B9A8200A90BAF /* TripFormOutDateVC.h */,
+				84144305191B9A8200A90BAF /* TripFormOutDateVC.m */,
+				84144307191B9ACB00A90BAF /* TripFormTitleVC.h */,
+				84144308191B9ACB00A90BAF /* TripFormTitleVC.m */,
+			);
+			name = TripForm;
+			sourceTree = "<group>";
+		};
+		8427453619156DC800005E86 /* VisaForm */ = {
+			isa = PBXGroup;
+			children = (
+				84C3143D1911224900BB982B /* VisaFormCountryVC.h */,
+				84C3143E1911224900BB982B /* VisaFormCountryVC.m */,
+				8427453319156CCC00005E86 /* VisaFormStartDateVC.h */,
+				8427453419156CCC00005E86 /* VisaFormStartDateVC.m */,
+				842745371915825F00005E86 /* VisaFormEndDateVC.h */,
+				842745381915825F00005E86 /* VisaFormEndDateVC.m */,
+				848678811918EF2900B387EA /* VisaFormDaysVC.h */,
+				848678821918EF2900B387EA /* VisaFormDaysVC.m */,
+				841442DC191A125000A90BAF /* VisaFormPassportVC.h */,
+				841442DD191A125000A90BAF /* VisaFormPassportVC.m */,
+			);
+			name = VisaForm;
+			sourceTree = "<group>";
+		};
+		8453D409191C317300E563EB /* PASSPORT */ = {
+			isa = PBXGroup;
+			children = (
+				8475C601191D0BB400A53B15 /* PassportForm */,
+				8453D40D191C339400E563EB /* PassportFormTVC.h */,
+				8453D40E191C339400E563EB /* PassportFormTVC.m */,
+				8453D40A191C31C400E563EB /* PassportAddVC.h */,
+				8453D40B191C31C400E563EB /* PassportAddVC.m */,
+				84C31416190FAB5700BB982B /* PassportsCDTVCViewController.h */,
+				84C31417190FAB5700BB982B /* PassportsCDTVCViewController.m */,
+				84C31419190FC03300BB982B /* PassportViewController.h */,
+				84C3141A190FC03300BB982B /* PassportViewController.m */,
+			);
+			name = PASSPORT;
+			sourceTree = "<group>";
+		};
+		845FB7A2190D1ECD00AE4862 = {
+			isa = PBXGroup;
+			children = (
+				845FB7B4190D1ECD00AE4862 /* MultiTest */,
+				845FB7D3190D1ECD00AE4862 /* MultiTestTests */,
+				845FB7AD190D1ECD00AE4862 /* Frameworks */,
+				845FB7AC190D1ECD00AE4862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845FB7AC190D1ECD00AE4862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845FB7AB190D1ECD00AE4862 /* MultiVisa.app */,
+				845FB7CC190D1ECD00AE4862 /* MultiVisaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845FB7AD190D1ECD00AE4862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845FB7AE190D1ECD00AE4862 /* Foundation.framework */,
+				845FB7B0190D1ECD00AE4862 /* CoreGraphics.framework */,
+				845FB7B2190D1ECD00AE4862 /* UIKit.framework */,
+				845FB7CD190D1ECD00AE4862 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845FB7B4190D1ECD00AE4862 /* MultiTest */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F0531971A20300C6D8AB /* MultiVisaCopy */,
+				845FB7BD190D1ECD00AE4862 /* MultiTestAppDelegate.h */,
+				845FB7BE190D1ECD00AE4862 /* MultiTestAppDelegate.m */,
+				845FB7E3190D21B200AE4862 /* MultiModel.xcdatamodeld */,
+				84F1F04D1971975D00C6D8AB /* Base.lproj */,
+				8475C60E191D487800A53B15 /* const */,
+				845FB81B190D412300AE4862 /* VIEW */,
+				845FB7E6190D21C500AE4862 /* MODEL */,
+				845FB7E7190D21D200AE4862 /* CONTROLLER */,
+				845FB7C6190D1ECD00AE4862 /* Images.xcassets */,
+				84BA7222195833D5006211F6 /* icons.xcassets */,
+				845FB7B5190D1ECD00AE4862 /* Supporting Files */,
+			);
+			path = MultiTest;
+			sourceTree = "<group>";
+		};
+		845FB7B5190D1ECD00AE4862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846E64F11971D75C00A54907 /* AppIcon29x29@2x~ipad.png */,
+				846E64F21971D75C00A54907 /* AppIcon29x29~ipad.png */,
+				846E64F31971D75C00A54907 /* AppIcon40x40@2x~ipad.png */,
+				846E64F41971D75C00A54907 /* AppIcon40x40~ipad.png */,
+				846E64F51971D75C00A54907 /* AppIcon76x76@2x~ipad.png */,
+				846E64F61971D75C00A54907 /* AppIcon76x76~ipad.png */,
+				845FB7BA190D1ECD00AE4862 /* main.m */,
+				84509AF719716CDE003B6676 /* MultiTest-Info.plist */,
+				845FB7BC190D1ECD00AE4862 /* MultiTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845FB7D3190D1ECD00AE4862 /* MultiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				845FB7D9190D1ECD00AE4862 /* MultiTestTests.m */,
+				845FB7D4190D1ECD00AE4862 /* Supporting Files */,
+			);
+			path = MultiTestTests;
+			sourceTree = "<group>";
+		};
+		845FB7D4190D1ECD00AE4862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845FB7D5190D1ECD00AE4862 /* MultiTestTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845FB7E6190D21C500AE4862 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				8412DF92193E80A600978464 /* UserWithTrip.h */,
+				8412DF93193E80A600978464 /* UserWithTrip.m */,
+				8412DF8F193E80A600978464 /* Trip.h */,
+				8412DF90193E80A600978464 /* Trip.m */,
+				8475C63F191D586400A53B15 /* DayModel */,
+				8475C62D191D585200A53B15 /* Visa.h */,
+				8475C62E191D585200A53B15 /* Visa.m */,
+				84C314471911984C00BB982B /* VisaTemp.h */,
+				84C314481911984C00BB982B /* VisaTemp.m */,
+				8475C649191DA32300A53B15 /* MultiTestCell.h */,
+				8475C64A191DA32300A53B15 /* MultiTestCell.m */,
+				841442EB191AE55C00A90BAF /* TripTemp.h */,
+				841442EC191AE55C00A90BAF /* TripTemp.m */,
+				845FB828190E660400AE4862 /* Vehicle.h */,
+				845FB829190E660400AE4862 /* Vehicle.m */,
+				84C313BF190E998700BB982B /* Country+Create.h */,
+				84C313C0190E998700BB982B /* Country+Create.m */,
+				845FB825190E660400AE4862 /* Country.h */,
+				845FB826190E660400AE4862 /* Country.m */,
+				8475C640191D58F900A53B15 /* Passport.h */,
+				8475C641191D58F900A53B15 /* Passport.m */,
+				8453D410191CCF3100E563EB /* PassportTemp.h */,
+				8453D411191CCF3100E563EB /* PassportTemp.m */,
+				84C3144A19119EBC00BB982B /* Passport+Create.h */,
+				84C3144B19119EBC00BB982B /* Passport+Create.m */,
+				845FB822190E55E500AE4862 /* Vehicle+Create.h */,
+				845FB823190E55E500AE4862 /* Vehicle+Create.m */,
+				84C313C2190EC8A800BB982B /* CountryWithVehicleRule+Create.h */,
+				84C313C3190EC8A800BB982B /* CountryWithVehicleRule+Create.m */,
+				845FB806190D3DBA00AE4862 /* CountryWithVehicleRule.h */,
+				845FB807190D3DBA00AE4862 /* CountryWithVehicleRule.m */,
+				841442EE191AEECF00A90BAF /* User+Create.h */,
+				841442EF191AEECF00A90BAF /* User+Create.m */,
+				845FB803190D3DBA00AE4862 /* User.h */,
+				845FB804190D3DBA00AE4862 /* User.m */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		845FB7E7190D21D200AE4862 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				84E0E91C1941DFE4007DC57D /* MultiVisaUITabBarController.h */,
+				84E0E91D1941DFE4007DC57D /* MultiVisaUITabBarController.m */,
+				8475C65B19214A6200A53B15 /* DayVC.h */,
+				8475C65C19214A6200A53B15 /* DayVC.m */,
+				8475C658192121C500A53B15 /* TodayVC.h */,
+				8475C659192121C500A53B15 /* TodayVC.m */,
+				841442DF191AB89000A90BAF /* AddButtonsActions.h */,
+				84C314411911793700BB982B /* AddVC.h */,
+				84C314421911793700BB982B /* AddVC.m */,
+				84C313C8190F971200BB982B /* CoreDataTableViewController.h */,
+				84C313C9190F971200BB982B /* CoreDataTableViewController.m */,
+				8475C6551920F22700A53B15 /* CalendarVC.h */,
+				8475C6561920F22700A53B15 /* CalendarVC.m */,
+				845FB81C190D58D800AE4862 /* CalendarTableViewController.h */,
+				845FB81D190D58D800AE4862 /* CalendarTableViewController.m */,
+				845FB7C3190D1ECD00AE4862 /* MultiTestViewController.h */,
+				845FB7C4190D1ECD00AE4862 /* MultiTestViewController.m */,
+				8453D409191C317300E563EB /* PASSPORT */,
+				84C3144D191256C900BB982B /* VISA */,
+				841442E4191AE2B600A90BAF /* TRIP */,
+				84C31422190FF37500BB982B /* AlertViewController.h */,
+				84C31423190FF37500BB982B /* AlertViewController.m */,
+				84C3142B190FF4AF00BB982B /* AlertsCDTVC.h */,
+				84C3142C190FF4AF00BB982B /* AlertsCDTVC.m */,
+				8412DF89193DBC1300978464 /* TestCDTVC.h */,
+				8412DF8A193DBC1300978464 /* TestCDTVC.m */,
+			);
+			name = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		845FB81B190D412300AE4862 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				8476F7F0195C37EF00A50B07 /* DraggableButton.h */,
+				8476F7F1195C37EF00A50B07 /* DraggableButton.m */,
+				8476F7ED195C2D4400A50B07 /* DraggableTodayView.h */,
+				8476F7EE195C2D4400A50B07 /* DraggableTodayView.m */,
+				84BA7227195996AA006211F6 /* UILoaderSegue.h */,
+				84BA7228195996AA006211F6 /* UILoaderSegue.m */,
+				84C3144E1912C35000BB982B /* FormButton.h */,
+				84C3144F1912C35000BB982B /* FormButton.m */,
+				845FB81F190D5A8900AE4862 /* CalendarTableViewCell.h */,
+				845FB820190D5A8900AE4862 /* CalendarTableViewCell.m */,
+			);
+			name = VIEW;
+			sourceTree = "<group>";
+		};
+		8475C601191D0BB400A53B15 /* PassportForm */ = {
+			isa = PBXGroup;
+			children = (
+				8475C602191D0BF300A53B15 /* PassportFormIssueDateVC.h */,
+				8475C603191D0BF300A53B15 /* PassportFormIssueDateVC.m */,
+				8475C605191D0C1900A53B15 /* PassportFormExperationDateVC.h */,
+				8475C606191D0C1900A53B15 /* PassportFormExperationDateVC.m */,
+				8475C608191D0C6500A53B15 /* PassportFormTypeVC.h */,
+				8475C609191D0C6500A53B15 /* PassportFormTypeVC.m */,
+			);
+			name = PassportForm;
+			sourceTree = "<group>";
+		};
+		8475C60E191D487800A53B15 /* const */ = {
+			isa = PBXGroup;
+			children = (
+				84C31440191175CA00BB982B /* CONST.h */,
+				84C31415190FA45200BB982B /* MultiDatabaseAvailability.h */,
+				84BA722019522257006211F6 /* PassportSavedNotification.h */,
+				848678841919172300B387EA /* NSDate+Project.h */,
+				848678851919172300B387EA /* NSDate+Project.m */,
+				8486787E1918DEA900B387EA /* NSString+Project.h */,
+				8486787F1918DEA900B387EA /* NSString+Project.m */,
+				84C3143A19111DE100BB982B /* UIColor+Project.h */,
+				84C3143B19111DE100BB982B /* UIColor+Project.m */,
+				84509AEF19687FD1003B6676 /* NSDateFormatter+Project.h */,
+				84509AF019687FD1003B6676 /* NSDateFormatter+Project.m */,
+			);
+			name = const;
+			sourceTree = "<group>";
+		};
+		8475C63F191D586400A53B15 /* DayModel */ = {
+			isa = PBXGroup;
+			children = (
+				8412DF8C193E808300978464 /* Day.h */,
+				8412DF8D193E808300978464 /* Day.m */,
+				8475C64C191EAD4200A53B15 /* DayWithPassport+Create.h */,
+				8475C64D191EAD4200A53B15 /* DayWithPassport+Create.m */,
+				8475C627191D585100A53B15 /* DayWithPassport.h */,
+				8475C628191D585100A53B15 /* DayWithPassport.m */,
+				8475C643191D608600A53B15 /* Day+Create.h */,
+				8475C644191D608600A53B15 /* Day+Create.m */,
+				8475C636191D585200A53B15 /* DayWithTrip.h */,
+				8475C637191D585200A53B15 /* DayWithTrip.m */,
+				8475C646191D762700A53B15 /* Week+Create.h */,
+				8475C647191D762700A53B15 /* Week+Create.m */,
+				8475C633191D585200A53B15 /* Week.h */,
+				8475C634191D585200A53B15 /* Week.m */,
+				8475C63C191D585200A53B15 /* DayWithVisa.h */,
+				8475C64F1920E58600A53B15 /* DayWithVisa+Create.h */,
+				8475C6501920E58600A53B15 /* DayWithVisa+Create.m */,
+				8475C6521920E88B00A53B15 /* DayWithTrip+Create.h */,
+				8475C6531920E88B00A53B15 /* DayWithTrip+Create.m */,
+				8475C63D191D585200A53B15 /* DayWithVisa.m */,
+			);
+			name = DayModel;
+			sourceTree = "<group>";
+		};
+		84C3144D191256C900BB982B /* VISA */ = {
+			isa = PBXGroup;
+			children = (
+				8427453619156DC800005E86 /* VisaForm */,
+				84C3143719110E8200BB982B /* VisaFormTVC.h */,
+				84C3143819110E8200BB982B /* VisaFormTVC.m */,
+				84C314311910F2F400BB982B /* VisaAddVC.h */,
+				84C314321910F2F400BB982B /* VisaAddVC.m */,
+				84C31425190FF47100BB982B /* VisasCDTVC.h */,
+				84C31426190FF47100BB982B /* VisasCDTVC.m */,
+				84C3141C190FF34500BB982B /* VisaViewController.h */,
+				84C3141D190FF34500BB982B /* VisaViewController.m */,
+			);
+			name = VISA;
+			sourceTree = "<group>";
+		};
+		84F1F04D1971975D00C6D8AB /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				84F1F04E1971975D00C6D8AB /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845FB7AA190D1ECD00AE4862 /* MultiVisa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845FB7DD190D1ECD00AE4862 /* Build configuration list for PBXNativeTarget "MultiVisa" */;
+			buildPhases = (
+				845FB7A7190D1ECD00AE4862 /* Sources */,
+				845FB7A8190D1ECD00AE4862 /* Frameworks */,
+				845FB7A9190D1ECD00AE4862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiVisa;
+			productName = MultiTest;
+			productReference = 845FB7AB190D1ECD00AE4862 /* MultiVisa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845FB7CB190D1ECD00AE4862 /* MultiVisaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845FB7E0190D1ECD00AE4862 /* Build configuration list for PBXNativeTarget "MultiVisaTests" */;
+			buildPhases = (
+				845FB7C8190D1ECD00AE4862 /* Sources */,
+				845FB7C9190D1ECD00AE4862 /* Frameworks */,
+				845FB7CA190D1ECD00AE4862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845FB7D2190D1ECD00AE4862 /* PBXTargetDependency */,
+			);
+			name = MultiVisaTests;
+			productName = MultiTestTests;
+			productReference = 845FB7CC190D1ECD00AE4862 /* MultiVisaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845FB7A3190D1ECD00AE4862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MultiVisa;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					845FB7AA190D1ECD00AE4862 = {
+						DevelopmentTeam = YHHUWZGPYT;
+					};
+					845FB7CB190D1ECD00AE4862 = {
+						TestTargetID = 845FB7AA190D1ECD00AE4862;
+					};
+				};
+			};
+			buildConfigurationList = 845FB7A6190D1ECD00AE4862 /* Build configuration list for PBXProject "MultiVisa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 845FB7A2190D1ECD00AE4862;
+			productRefGroup = 845FB7AC190D1ECD00AE4862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845FB7AA190D1ECD00AE4862 /* MultiVisa */,
+				845FB7CB190D1ECD00AE4862 /* MultiVisaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845FB7A9190D1ECD00AE4862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E64FC1971D75C00A54907 /* AppIcon76x76~ipad.png in Resources */,
+				84F1F05119719D2400C6D8AB /* Main.storyboard in Resources */,
+				846E64F71971D75C00A54907 /* AppIcon29x29@2x~ipad.png in Resources */,
+				846E64F81971D75C00A54907 /* AppIcon29x29~ipad.png in Resources */,
+				846E64FB1971D75C00A54907 /* AppIcon76x76@2x~ipad.png in Resources */,
+				846E64F91971D75C00A54907 /* AppIcon40x40@2x~ipad.png in Resources */,
+				845FB7C7190D1ECD00AE4862 /* Images.xcassets in Resources */,
+				84F1F0541971A20300C6D8AB /* MultiVisaCopy in Resources */,
+				846E64FA1971D75C00A54907 /* AppIcon40x40~ipad.png in Resources */,
+				84BA7223195833D5006211F6 /* icons.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845FB7CA190D1ECD00AE4862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845FB7A7190D1ECD00AE4862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475C607191D0C1900A53B15 /* PassportFormExperationDateVC.m in Sources */,
+				8475C63E191D585200A53B15 /* DayWithVisa.m in Sources */,
+				84144306191B9A8200A90BAF /* TripFormOutDateVC.m in Sources */,
+				84509AF119687FD1003B6676 /* NSDateFormatter+Project.m in Sources */,
+				8475C65D19214A6200A53B15 /* DayVC.m in Sources */,
+				841442F3191B6B6F00A90BAF /* TripFormTVC.m in Sources */,
+				84C3142A190FF49700BB982B /* TripsCDTVC.m in Sources */,
+				845FB7BF190D1ECD00AE4862 /* MultiTestAppDelegate.m in Sources */,
+				8453D40F191C339400E563EB /* PassportFormTVC.m in Sources */,
+				8475C64E191EAD4200A53B15 /* DayWithPassport+Create.m in Sources */,
+				84C313CA190F971200BB982B /* CoreDataTableViewController.m in Sources */,
+				848678861919172300B387EA /* NSDate+Project.m in Sources */,
+				84C3143919110E8200BB982B /* VisaFormTVC.m in Sources */,
+				84C31424190FF37500BB982B /* AlertViewController.m in Sources */,
+				841442E7191AE32100A90BAF /* TripAddVC.m in Sources */,
+				84C31421190FF36300BB982B /* TripViewController.m in Sources */,
+				8475C642191D58F900A53B15 /* Passport.m in Sources */,
+				8475C604191D0BF300A53B15 /* PassportFormIssueDateVC.m in Sources */,
+				8476F7EF195C2D4400A50B07 /* DraggableTodayView.m in Sources */,
+				8475C638191D585200A53B15 /* DayWithTrip.m in Sources */,
+				84C3144C19119EBC00BB982B /* Passport+Create.m in Sources */,
+				841442FD191B9A1100A90BAF /* TripFormEntryCountyVC.m in Sources */,
+				845FB824190E55E500AE4862 /* Vehicle+Create.m in Sources */,
+				8412DF8B193DBC1300978464 /* TestCDTVC.m in Sources */,
+				841442DE191A125000A90BAF /* VisaFormPassportVC.m in Sources */,
+				8475C629191D585100A53B15 /* DayWithPassport.m in Sources */,
+				8475C635191D585200A53B15 /* Week.m in Sources */,
+				8475C60A191D0C6500A53B15 /* PassportFormTypeVC.m in Sources */,
+				84C314491911984C00BB982B /* VisaTemp.m in Sources */,
+				845FB7BB190D1ECD00AE4862 /* main.m in Sources */,
+				842745391915825F00005E86 /* VisaFormEndDateVC.m in Sources */,
+				8412DF91193E80A600978464 /* Trip.m in Sources */,
+				84C31418190FAB5700BB982B /* PassportsCDTVCViewController.m in Sources */,
+				84C314431911793700BB982B /* AddVC.m in Sources */,
+				84C3141B190FC03300BB982B /* PassportViewController.m in Sources */,
+				84C314501912C35000BB982B /* FormButton.m in Sources */,
+				84C313C4190EC8A800BB982B /* CountryWithVehicleRule+Create.m in Sources */,
+				845FB827190E660400AE4862 /* Country.m in Sources */,
+				8453D40C191C31C400E563EB /* PassportAddVC.m in Sources */,
+				8475C648191D762700A53B15 /* Week+Create.m in Sources */,
+				845FB805190D3DBA00AE4862 /* User.m in Sources */,
+				8475C65A192121C500A53B15 /* TodayVC.m in Sources */,
+				84C3141E190FF34500BB982B /* VisaViewController.m in Sources */,
+				845FB81E190D58D800AE4862 /* CalendarTableViewController.m in Sources */,
+				8412DF8E193E808300978464 /* Day.m in Sources */,
+				845FB821190D5A8900AE4862 /* CalendarTableViewCell.m in Sources */,
+				84144303191B9A5900A90BAF /* TripFormOutCountyVC.m in Sources */,
+				84E0E91E1941DFE4007DC57D /* MultiVisaUITabBarController.m in Sources */,
+				84C31427190FF47100BB982B /* VisasCDTVC.m in Sources */,
+				8476F7F2195C37EF00A50B07 /* DraggableButton.m in Sources */,
+				845FB7C5190D1ECD00AE4862 /* MultiTestViewController.m in Sources */,
+				8475C6571920F22700A53B15 /* CalendarVC.m in Sources */,
+				841442ED191AE55C00A90BAF /* TripTemp.m in Sources */,
+				845FB7E5190D21B200AE4862 /* MultiModel.xcdatamodeld in Sources */,
+				84144309191B9ACB00A90BAF /* TripFormTitleVC.m in Sources */,
+				845FB808190D3DBA00AE4862 /* CountryWithVehicleRule.m in Sources */,
+				8453D412191CCF3100E563EB /* PassportTemp.m in Sources */,
+				8475C6511920E58600A53B15 /* DayWithVisa+Create.m in Sources */,
+				8427453519156CCC00005E86 /* VisaFormStartDateVC.m in Sources */,
+				8475C62F191D585200A53B15 /* Visa.m in Sources */,
+				8475C64B191DA32300A53B15 /* MultiTestCell.m in Sources */,
+				84C3143C19111DE100BB982B /* UIColor+Project.m in Sources */,
+				84BA7229195996AA006211F6 /* UILoaderSegue.m in Sources */,
+				848678801918DEA900B387EA /* NSString+Project.m in Sources */,
+				84C314331910F2F400BB982B /* VisaAddVC.m in Sources */,
+				8475C6541920E88B00A53B15 /* DayWithTrip+Create.m in Sources */,
+				841442F0191AEECF00A90BAF /* User+Create.m in Sources */,
+				8475C645191D608600A53B15 /* Day+Create.m in Sources */,
+				84C313C1190E998700BB982B /* Country+Create.m in Sources */,
+				845FB82A190E660400AE4862 /* Vehicle.m in Sources */,
+				84144300191B9A3700A90BAF /* TripFormEntryDateVC.m in Sources */,
+				848678831918EF2900B387EA /* VisaFormDaysVC.m in Sources */,
+				84C3143F1911224900BB982B /* VisaFormCountryVC.m in Sources */,
+				84C3142D190FF4AF00BB982B /* AlertsCDTVC.m in Sources */,
+				8412DF94193E80A600978464 /* UserWithTrip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845FB7C8190D1ECD00AE4862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845FB7DA190D1ECD00AE4862 /* MultiTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845FB7D2190D1ECD00AE4862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845FB7AA190D1ECD00AE4862 /* MultiVisa */;
+			targetProxy = 845FB7D1190D1ECD00AE4862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F1F04E1971975D00C6D8AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F1F04F1971975D00C6D8AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845FB7DB190D1ECD00AE4862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "13B6013C-FC1B-4786-B942-36EB08AE2971";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		845FB7DC190D1ECD00AE4862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "13B6013C-FC1B-4786-B942-36EB08AE2971";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845FB7DE190D1ECD00AE4862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTest/MultiTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = "MultiTest/MultiTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = MultiVisa;
+				PROVISIONING_PROFILE = "13B6013C-FC1B-4786-B942-36EB08AE2971";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		845FB7DF190D1ECD00AE4862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sergey Shvedov (YHHUWZGPYT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTest/MultiTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "MultiTest/MultiTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = MultiVisa;
+				PROVISIONING_PROFILE = "13B6013C-FC1B-4786-B942-36EB08AE2971";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		845FB7E1190D1ECD00AE4862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTest.app/MultiTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTest/MultiTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiTestTests/MultiTestTests-Info.plist";
+				PRODUCT_NAME = MultiVisaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		845FB7E2190D1ECD00AE4862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiTest.app/MultiTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiTest/MultiTest-Prefix.pch";
+				INFOPLIST_FILE = "MultiTestTests/MultiTestTests-Info.plist";
+				PRODUCT_NAME = MultiVisaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845FB7A6190D1ECD00AE4862 /* Build configuration list for PBXProject "MultiVisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845FB7DB190D1ECD00AE4862 /* Debug */,
+				845FB7DC190D1ECD00AE4862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845FB7DD190D1ECD00AE4862 /* Build configuration list for PBXNativeTarget "MultiVisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845FB7DE190D1ECD00AE4862 /* Debug */,
+				845FB7DF190D1ECD00AE4862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845FB7E0190D1ECD00AE4862 /* Build configuration list for PBXNativeTarget "MultiVisaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845FB7E1190D1ECD00AE4862 /* Debug */,
+				845FB7E2190D1ECD00AE4862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		845FB7E3190D21B200AE4862 /* MultiModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				845FB7E4190D21B200AE4862 /* MultiModel.xcdatamodel */,
+			);
+			currentVersion = 845FB7E4190D21B200AE4862 /* MultiModel.xcdatamodel */;
+			path = MultiModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 845FB7A3190D1ECD00AE4862 /* Project object */;
+}
